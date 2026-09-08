@@ -17,7 +17,7 @@ export function Hero(): ReactNode {
               Hey, I&rsquo;m Suriya
             </p>
 
-<h1 className="text-[2.2rem] font-medium leading-[1.05] tracking-tight text-foreground sm:text-[2.75rem] md:text-[2.5rem] lg:text-[3.65rem]">
+<h1 className=" font-medium leading-[1.05] tracking-tight text-foreground sm:text-[2.75rem] md:text-[2.5rem] lg:text-[3.65rem]">
   <span className="block">Frontend Developer &</span>
   <span className="block">Web Designer</span>
 </h1>
