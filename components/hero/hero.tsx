@@ -17,14 +17,10 @@ export function Hero(): ReactNode {
               Hey, I&rsquo;m Suriya
             </p>
 
-            <h1 className="text-[2.75rem] font-medium leading-[1.05] tracking-tight text-foreground md:text-[2.5rem] lg:text-[3.65rem]">
-              <span className="block whitespace-nowrap">
-                Frontend Developer &
-              </span>
-              <span className="block whitespace-nowrap">
-                Web Designer
-              </span>
-            </h1>
+<h1 className="text-[2.2rem] font-medium leading-[1.05] tracking-tight text-foreground sm:text-[2.75rem] md:text-[2.5rem] lg:text-[3.65rem]">
+  <span className="block">Frontend Developer &</span>
+  <span className="block">Web Designer</span>
+</h1>
 
             <p className="max-w-[34ch] text-[22px] leading-[1.4] tracking-tight text-foreground/65">
               I build responsive websites and digital experiences with a focus
