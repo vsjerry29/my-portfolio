@@ -31,7 +31,7 @@ export function Education(): ReactNode {
               className="bg-background border-foreground/5 flex items-center gap-4 rounded-3xl border p-2"
               style={{ minHeight: ROW_HEIGHT }}
             >
-              <SchoolLogo entry={entry} />
+              <SchoolLogo />
 
               <div className="flex min-w-0 flex-col">
                 <span className="text-foreground text-[17px] font-semibold tracking-tight sm:text-[18px]">
@@ -40,9 +40,7 @@ export function Education(): ReactNode {
 
                 <span className="text-foreground/65 mt-0.5 text-[14px] tracking-tight sm:text-[15px]">
                   {entry.degree}
-
                   <span className="text-foreground/30 mx-2">•</span>
-
                   <span className="text-foreground/55">
                     {entry.period}
                   </span>
@@ -56,7 +54,7 @@ export function Education(): ReactNode {
   );
 }
 
-function SchoolLogo({ entry }: { entry: Entry }): ReactNode {
+function SchoolLogo(): ReactNode {
   return (
     <span
       className="border-foreground/15 inline-flex h-12 w-12 shrink-0 items-center justify-center border"
