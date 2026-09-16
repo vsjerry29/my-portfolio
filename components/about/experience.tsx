@@ -20,7 +20,7 @@ const ENTRIES: Entry[] = [
   },
   {
     company: "Freelance",
-    role: "WordPress & Digital Services",
+    role: "Web Development & Digital Services",
     period: "Dec 2024 – Present",
     brand: "F",
   },
