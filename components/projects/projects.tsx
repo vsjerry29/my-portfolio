@@ -15,6 +15,7 @@ type Project = {
   imageRatio: number;
   image: string;
   imageAlt: string;
+  url: string;
 };
 
 const PROJECTS: Project[] = [
@@ -29,42 +30,7 @@ const PROJECTS: Project[] = [
     imageRatio: 16 / 9,
     image: "/projects/sbt-tours.webp",
     imageAlt: "SBT Tours website",
-  },
-  {
-    id: "mother-glory",
-    icon: Sparkles,
-    iconLabel: "Mother Glory",
-    title: "Mother Glory",
-    description:
-      "A React-based website with a modern interface and responsive layouts designed around the brand and its content.",
-    meta: "React · Frontend Development",
-    imageRatio: 16 / 9,
-    image: "/projects/mother-glory.webp",
-    imageAlt: "Mother Glory website",
-  },
-  {
-    id: "patel-public-school",
-    icon: Monitor,
-    iconLabel: "Patel Public School",
-    title: "Patel Public School",
-    description:
-      "A school website built to present the institution, academics, facilities, activities, and admission information.",
-    meta: "Web Development",
-    imageRatio: 16 / 9,
-    image: "/projects/patel-public-school.webp",
-    imageAlt: "Patel Public School website",
-  },
-  {
-    id: "duffy-boats",
-    icon: Globe,
-    iconLabel: "Duffy Boats",
-    title: "Duffy Boats",
-    description:
-      "A responsive website focused on presenting the brand, boats, products, and information through a visual web experience.",
-    meta: "Web Development",
-    imageRatio: 16 / 9,
-    image: "/projects/duffy-boats.webp",
-    imageAlt: "Duffy Boats website",
+    url: "https://www.sbttours.com/",
   },
   {
     id: "psalt-studios",
@@ -77,6 +43,47 @@ const PROJECTS: Project[] = [
     imageRatio: 16 / 9,
     image: "/projects/psalt-studios.webp",
     imageAlt: "PSalt Studios website",
+    url: "https://psaltstudios.com/",
+  },
+
+  {
+    id: "duffy-boats",
+    icon: Globe,
+    iconLabel: "Duffy Boats",
+    title: "Duffy Boats",
+    description:
+      "A responsive website focused on presenting the brand, boats, products, and information through a visual web experience.",
+    meta: "Web Development",
+    imageRatio: 16 / 9,
+    image: "/projects/duffy-boats.webp",
+    imageAlt: "Duffy Boats website",
+    url: "https://duffyboats.com/",
+  },
+    {
+    id: "mother-glory",
+    icon: Sparkles,
+    iconLabel: "Mother Glory",
+    title: "Mother Glory",
+    description:
+      "A React-based website with a modern interface and responsive layouts designed around the brand and its content.",
+    meta: "React · Frontend Development",
+    imageRatio: 16 / 9,
+    image: "/projects/mother-glory.webp",
+    imageAlt: "Mother Glory website",
+    url: "https://www.motherglory.com/",
+  },
+  {
+    id: "patel-public-school",
+    icon: Monitor,
+    iconLabel: "Patel Public School",
+    title: "Patel Public School",
+    description:
+      "A school website built to present the institution, academics, facilities, activities, and admission information.",
+    meta: "Web Development",
+    imageRatio: 16 / 9,
+    image: "/projects/patel-public-school.webp",
+    imageAlt: "Patel Public School website",
+    url: "https://patelpublicschool.com/",
   },
   {
     id: "red-key-realtors",
@@ -89,6 +96,7 @@ const PROJECTS: Project[] = [
     imageRatio: 16 / 9,
     image: "/projects/red-key-realtors.webp",
     imageAlt: "Red Key Realtors website",
+    url: "https://www.redkeyrealtors.com/",
   },
 ];
 
@@ -162,7 +170,12 @@ function ProjectCard({
       delay={Math.min(index * 0.06, 0.3)}
       className="mb-6 break-inside-avoid md:mb-7"
     >
-      <article className="project-card flex cursor-pointer flex-col gap-4 rounded-3xl border border-foreground/8 bg-background p-3 sm:p-3.5">
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="project-card flex cursor-pointer flex-col gap-4 rounded-3xl border border-foreground/8 bg-background p-3 sm:p-3.5"
+      >
         <header className="flex items-center gap-2.5 px-1 pt-2">
           <span className="border-foreground/10 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border bg-background">
             <Icon
@@ -205,7 +218,7 @@ function ProjectCard({
         <p className="px-1 pb-2 text-[12px] tracking-tight text-foreground/50">
           {project.meta}
         </p>
-      </article>
+      </a>
     </FadeIn>
   );
 }
