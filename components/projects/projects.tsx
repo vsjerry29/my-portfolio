@@ -19,6 +19,19 @@ type Project = {
 };
 
 const PROJECTS: Project[] = [
+{
+id: "chicken-biriyani-3d",
+icon: Sparkles,
+iconLabel: "Chicken Biriyani 3D",
+title: "Chicken Biriyani 3D",
+description:
+  "An immersive 3D restaurant website featuring interactive food experiences, realistic 3D visuals, cinematic animations, and an engaging WebGL-powered interface.",
+meta: "React · Next.js · Three.js · WebGL · GSAP",
+imageRatio: 16 / 9,
+image: "/projects/chicken-biriyani-3d.webp",
+imageAlt: "Chicken Biriyani 3D interactive website",
+url: "https://chicken-biriyani-3d.vercel.app/",
+},
   {
     id: "sbt-tours",
     icon: Sparkles,
