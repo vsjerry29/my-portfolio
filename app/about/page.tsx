@@ -1,6 +1,6 @@
+
 import { Education } from "@/components/about/education";
 import { Experience } from "@/components/about/experience";
-
 import { Skills } from "@/components/about/skills";
 import { Stack } from "@/components/about/stack";
 import { ContactCard } from "@/components/contact/contact-card";
@@ -12,15 +12,15 @@ import type { ReactNode } from "react";
 export const metadata: Metadata = createMetadata({
   title: "About",
   description:
-    "About Suriya, a frontend developer and web designer focused on building responsive and user-friendly digital experiences.",
+    "About Suriya, a web developer and digital marketing specialist experienced in WordPress, React, SEO, and digital marketing.",
   path: "/about",
 });
 
 export default function AboutPage(): ReactNode {
   return (
     <main id="main-content" className="flex flex-1 flex-col">
-      <div className="pt-30 mx-auto">
-      </div>
+      <div className="pt-30 mx-auto" />
+
       <section className="mx-auto w-full max-w-160 px-6 pt-20 pb-16 sm:px-10 sm:pt-28 sm:pb-24">
         <FadeIn delay={0.5}>
           <div className="rounded-4xl border border-foreground/5 bg-foreground/1.5 p-8 sm:p-12 dark:bg-foreground/3">
@@ -37,33 +37,33 @@ export default function AboutPage(): ReactNode {
                 <strong className="font-semibold text-foreground">
                   WordPress, HTML, CSS and Bootstrap
                 </strong>
-                . Over time I got more interested in what happens beyond
-                templates, which pushed me toward{" "}
+                . Over time, I expanded into{" "}
                 <strong className="font-semibold text-foreground">
                   JavaScript, React and Next.js
                 </strong>
-                .
+                , while also gaining hands-on experience in digital
+                marketing and SEO.
               </p>
 
               <p>
-                Most of my work has been pretty hands-on. I&rsquo;ve built and
-                maintained websites for businesses and educational institutions,
-                worked on{" "}
+                Over the past 3+ years, I&rsquo;ve worked with
+                businesses and educational institutions on{" "}
                 <strong className="font-semibold text-foreground">
-                  UI, SEO, performance, hosting and deployments
+                  website development, SEO, content management
+                  and digital marketing
                 </strong>
-                , and dealt with the less interesting parts of websites too,
-                like fixing broken forms, plugins, domains and integrations.
+                . My work includes WordPress management, website
+                optimisation, Google Ads, Meta Ads, and creating
+                digital content for online promotions.
               </p>
 
               <p>
-                I&rsquo;m now putting more of my time into{" "}
-                <strong className="font-semibold text-foreground">
-                  frontend development
-                </strong>
-                . I like taking a design and figuring out how to turn it into
-                something that actually works, rather than just making another
-                static page.
+                I enjoy working on both the technical and creative
+                sides of digital projects. Whether it&rsquo;s building
+                a responsive website, improving its visibility in
+                search results, or supporting a marketing campaign,
+                I like creating things that look good, work well,
+                and serve a real purpose.
               </p>
             </div>
           </div>

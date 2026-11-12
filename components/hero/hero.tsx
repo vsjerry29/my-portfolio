@@ -1,3 +1,4 @@
+
 import type { ReactNode } from "react";
 
 import { HeroCtas } from "./hero-ctas";
@@ -17,21 +18,25 @@ export function Hero(): ReactNode {
               Hey, I&rsquo;m Suriya
             </p>
 
-<h1 className="text-[2rem] font-medium leading-[1.05] tracking-tight text-foreground sm:text-[2.75rem] md:text-[2.5rem] lg:text-[3.65rem]">
-  <span className="block">Frontend Developer &</span>
-  <span className="block">Web Designer</span>
-</h1>
+            <h1 className="text-[2rem] font-medium leading-[1.12] tracking-tight text-foreground sm:text-[2.75rem] md:text-[2.5rem] lg:text-[3.65rem]">
+              Web Developer &amp;
+              <br />
+              Digital Marketing
+              <br />
+              Specialist
+            </h1>
 
-            <p className="max-w-[34ch] text-[22px] leading-[1.4] tracking-tight text-foreground/65">
-              I build responsive websites and digital experiences with a focus
-              on clean design, performance, and usability.
+            <p className="max-w-[38ch] text-[20px] leading-[1.5] tracking-tight text-foreground/65 sm:text-[22px]">
+              I build responsive websites and help businesses
+              improve their online presence through SEO,
+              digital marketing, and engaging web experiences.
             </p>
 
             <HeroCtas />
           </FadeIn>
 
           <ScaleUnblur className="flex justify-stretch md:justify-end">
-            <div className="relative aspect-square w-full md:max-w-105 overflow-hidden rounded-4xl border border-foreground/8 bg-background p-1.5 shadow-sm">
+            <div className="relative aspect-square w-full overflow-hidden rounded-4xl border border-foreground/8 bg-background p-1.5 shadow-sm md:max-w-105">
               <div className="relative h-full w-full overflow-hidden rounded-[1.6rem]">
                 <PortraitMorph
                   srcA={PORTRAIT_SRC}

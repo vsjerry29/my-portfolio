@@ -32,19 +32,7 @@ image: "/projects/chicken-biriyani-3d.webp",
 imageAlt: "Chicken Biriyani 3D interactive website",
 url: "https://chicken-biriyani-3d.vercel.app/",
 },
-  {
-    id: "sbt-tours",
-    icon: Sparkles,
-    iconLabel: "SBT Tours",
-    title: "SBT Tours",
-    description:
-      "A modern travel website built with React, focused on presenting tours, destinations, and travel services in a clear and interactive way.",
-    meta: "React · Frontend Development",
-    imageRatio: 16 / 9,
-    image: "/projects/sbt-tours.webp",
-    imageAlt: "SBT Tours website",
-    url: "https://www.sbttours.com/",
-  },
+
   {
     id: "psalt-studios",
     icon: Monitor,
