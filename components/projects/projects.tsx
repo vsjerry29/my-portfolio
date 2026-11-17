@@ -30,7 +30,7 @@ const PROJECTS: Project[] = [
   imageRatio: 16 / 9,
   image: "/projects/iris.webp",
   imageAlt: "IRIS immersive photography website",
-  url: "#",
+  url: "https://irisique.vercel.app/",
 },
 {
   id: "little-orbit",
@@ -43,7 +43,7 @@ const PROJECTS: Project[] = [
   imageRatio: 16 / 9,
   image: "/projects/little-orbit.webp",
   imageAlt: "Little Orbit interactive 3D plush toy website",
-  url: "#",
+  url: "https://little-orbit-liart.vercel.app/",
 },
 {
     id: "psalt-studios",
@@ -72,8 +72,6 @@ image: "/projects/chicken-biriyani-3d.webp",
 imageAlt: "Chicken Biriyani 3D interactive website",
 url: "https://chicken-biriyani-3d.vercel.app/",
 },
-
-  
 
   {
     id: "duffy-boats",
