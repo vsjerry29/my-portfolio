@@ -19,7 +19,47 @@ type Project = {
 };
 
 const PROJECTS: Project[] = [
+  {
+  id: "iris",
+  icon: Globe,
+  iconLabel: "IRIS",
+  title: "IRIS",
+  description:
+    "An immersive iris photography website featuring detailed 3D visuals, interactive animations, cinematic transitions, and a premium user experience.",
+  meta: "Next.js · Three.js · GSAP · WebGL",
+  imageRatio: 16 / 9,
+  image: "/projects/iris.webp",
+  imageAlt: "IRIS immersive photography website",
+  url: "#",
+},
 {
+  id: "little-orbit",
+  icon: Globe,
+  iconLabel: "Little Orbit",
+  title: "Little Orbit",
+  description:
+    "An immersive 3D plush toy website featuring interactive characters, real-time customization, playful animations, and a dreamy cosmic experience.",
+  meta: "React · Three.js · WebGL · GSAP",
+  imageRatio: 16 / 9,
+  image: "/projects/little-orbit.webp",
+  imageAlt: "Little Orbit interactive 3D plush toy website",
+  url: "#",
+},
+{
+    id: "psalt-studios",
+    icon: Monitor,
+    iconLabel: "PSalt Studios",
+    title: "PSalt Studios",
+    description:
+      "A creative studio website built around its work, services, and visual identity with a responsive layout.",
+    meta: "Web Development",
+    imageRatio: 16 / 9,
+    image: "/projects/psalt-studios.webp",
+    imageAlt: "PSalt Studios website",
+    url: "https://psaltstudios.com/",
+  },
+{
+  
 id: "chicken-biriyani-3d",
 icon: Sparkles,
 iconLabel: "Chicken Biriyani 3D",
@@ -33,19 +73,7 @@ imageAlt: "Chicken Biriyani 3D interactive website",
 url: "https://chicken-biriyani-3d.vercel.app/",
 },
 
-  {
-    id: "psalt-studios",
-    icon: Monitor,
-    iconLabel: "PSalt Studios",
-    title: "PSalt Studios",
-    description:
-      "A creative studio website built around its work, services, and visual identity with a responsive layout.",
-    meta: "Web Development",
-    imageRatio: 16 / 9,
-    image: "/projects/psalt-studios.webp",
-    imageAlt: "PSalt Studios website",
-    url: "https://psaltstudios.com/",
-  },
+  
 
   {
     id: "duffy-boats",
