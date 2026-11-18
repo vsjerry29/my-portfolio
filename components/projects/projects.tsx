@@ -20,18 +20,19 @@ type Project = {
 
 const PROJECTS: Project[] = [
   {
-  id: "iris",
+  id: "auro-perfect-vision",
   icon: Globe,
-  iconLabel: "IRIS",
-  title: "IRIS",
+  iconLabel: "Auro Perfect Vision",
+  title: "Auro Perfect Vision",
   description:
-    "An immersive iris photography website featuring detailed 3D visuals, interactive animations, cinematic transitions, and a premium user experience.",
-  meta: "Next.js · Three.js · GSAP · WebGL",
+    "A modern eye wellness and therapy booking platform featuring holistic vision care programmes, personalized therapy sessions, retreats, and a seamless online appointment experience.",
+  meta: "Next.js · React · Tailwind CSS · Booking System",
   imageRatio: 16 / 9,
-  image: "/projects/iris.webp",
-  imageAlt: "IRIS immersive photography website",
-  url: "https://irisique.vercel.app/",
+  image: "/projects/auro-perfect-vision.webp",
+  imageAlt: "Auro Perfect Vision eye wellness and therapy booking website",
+  url: "https://auro-perfect-vision.vercel.app/",
 },
+
 {
   id: "little-orbit",
   icon: Globe,
@@ -72,7 +73,19 @@ image: "/projects/chicken-biriyani-3d.webp",
 imageAlt: "Chicken Biriyani 3D interactive website",
 url: "https://chicken-biriyani-3d.vercel.app/",
 },
-
+  {
+  id: "iris",
+  icon: Globe,
+  iconLabel: "IRIS",
+  title: "IRIS",
+  description:
+    "An immersive iris photography website featuring detailed 3D visuals, interactive animations, cinematic transitions, and a premium user experience.",
+  meta: "Next.js · Three.js · GSAP · WebGL",
+  imageRatio: 16 / 9,
+  image: "/projects/iris.webp",
+  imageAlt: "IRIS immersive photography website",
+  url: "https://irisique.vercel.app/",
+},
   {
     id: "duffy-boats",
     icon: Globe,
